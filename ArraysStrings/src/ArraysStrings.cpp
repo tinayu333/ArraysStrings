@@ -7,9 +7,13 @@
 //============================================================================
 
 #include <iostream>
+#include "classes.h"
+
 using namespace std;
 
 int main() {
+	IsUnique uniqueA;
+	uniqueA.printUnique();
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
 	return 0;
 	//test
